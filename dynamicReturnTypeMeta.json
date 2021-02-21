@@ -1,0 +1,29 @@
+{
+  "methodCalls": [
+    {
+      "class": "\\App\\Repository\\BaseRepository",
+      "method": "getRepository",
+      "position": 0
+    },
+    {
+      "class": "\\App\\Repository\\BaseRepository",
+      "method": "cast",
+      "position": 0
+    },
+    {
+      "class": "\\App\\Repository\\CallableRepository",
+      "method": "__construct",
+      "position": 1
+    },
+    {
+      "class": "\\App\\Core\\Container",
+      "method": "getRepository",
+      "position": 0
+    },
+    {
+      "class": "\\App\\Core\\Container",
+      "method": "getController",
+      "position": 0
+    }
+  ]
+}
